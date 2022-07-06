@@ -24,7 +24,7 @@ Feature: User Story : As a user, I should be able to log in
   Background: Users are expected to be on the login page
     Given User is on the login page
 
-  @FLT-1778
+  @FLT-1778 @smoke
   Scenario Outline: Users login as "<userType>"
     When user login as "<userType>"
     Then user land on "<expectedPage>"

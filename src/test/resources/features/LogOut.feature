@@ -12,7 +12,7 @@ Feature: User Story : As a user, I should be able to log out
   Background: Users are expected to be on the homepage
     Given User is on the login page
 
-  @FLT-1789
+  @FLT-1789 @smoke
   Scenario Outline: The user can log out and ends up on the login page.
     Given user login as "<userType>"
     When user click the log out button
