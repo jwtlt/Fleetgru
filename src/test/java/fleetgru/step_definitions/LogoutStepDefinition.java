@@ -53,4 +53,5 @@ public class LogoutStepDefinition {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
         Assert.assertEquals("Login",Driver.getDriver().getTitle());
     }
+
 }

@@ -82,8 +82,6 @@ public class BrowserUtilities {
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));
     }
 
-
-
     public static void clickRadioButton(List<WebElement> radioButtons, String attributeValue){
 
         for (WebElement each : radioButtons) {
@@ -93,4 +91,5 @@ public class BrowserUtilities {
             }
         }
     }
+
 }
